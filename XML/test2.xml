@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedulerList xmlns="http://Namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://Namespace scheduling.xsd">	<patient patientId="1">
+		<name>
+			<firstName>John</firstName>
+			<lastName>Lennon</lastName>
+		</name>
+		<data>
+			<dob>1951-05-01 12:00:00</dob>
+			<SSN>123-45-6789</SSN>
+		</data>
+		<active>active</active>
+	</patient>
+	<patient patientId="2">
+		<name>
+			<firstName>Paul</firstName>
+			<lastName>McCartney</lastName>
+		</name>
+		<data>
+			<dob>1964-06-23 12:00:00</dob>
+			<SSN>333-22-1123</SSN>
+		</data>
+		<active>active</active>
+	</patient>
+	<patient patientId="3">
+		<name>
+			<firstName>George</firstName>
+			<lastName>Harrison</lastName>
+		</name>
+		<data>
+			<dob>1955-09-05 12:00:00</dob>
+			<SSN>567-39-9282</SSN>
+		</data>
+		<active>active</active>
+	</patient>
+	<patient patientId="4">
+		<name>
+			<firstName>Ringo</firstName>
+			<lastName>Starr</lastName>
+		</name>
+		<data>
+			<dob>2001-02-28 12:00:00</dob>
+			<SSN>888-88-8888</SSN>
+		</data>
+		<active>active</active>
+	</patient>
+	<patient patientId="5">
+		<name>
+			<firstName>Bruno</firstName>
+			<lastName>Mars</lastName>
+		</name>
+		<data>
+			<dob>2015-12-10 22:04:01</dob>
+			<SSN>123-45-6789</SSN>
+		</data>
+		<active>active</active>
+	</patient>
+	<patient patientId="6">
+		<name>
+			<firstName>Dragon</firstName>
+			<lastName>Luffy</lastName>
+		</name>
+		<data>
+			<dob>2009-12-02 11:47:42</dob>
+			<SSN>123-45-6789</SSN>
+		</data>
+		<active>active</active>
+	</patient>
+	<patient patientId="7">
+		<name>
+			<firstName>Mary</firstName>
+			<lastName>Poppins</lastName>
+		</name>
+		<data>
+			<dob>2015-12-05 13:47:30</dob>
+			<SSN>123-45-6789</SSN>
+		</data>
+		<active>inactive</active>
+	</patient>
+	<doctor doctorId="1">
+		<name>
+			<firstName>John</firstName>
+			<lastName>Smith</lastName>
+		</name>
+		<data>
+			<dob>1941-06-03 12:00:00</dob>
+			<SSN>445-25-3382</SSN>
+		</data>
+		<specialty>GENERAL_MEDICINE</specialty>
+		<active>active</active>
+	</doctor>
+	<doctor doctorId="2">
+		<name>
+			<firstName>Jane</firstName>
+			<lastName>Doe</lastName>
+		</name>
+		<data>
+			<dob>1950-10-10 12:00:00</dob>
+			<SSN>582-10-9983</SSN>
+		</data>
+		<specialty>PEDIATRICS</specialty>
+		<active>active</active>
+	</doctor>
+	<doctor doctorId="3">
+		<name>
+			<firstName>Mary</firstName>
+			<lastName>Jones</lastName>
+		</name>
+		<data>
+			<dob>1965-12-25 12:00:00</dob>
+			<SSN>180-38-0038</SSN>
+		</data>
+		<specialty>GENERAL_MEDICINE</specialty>
+		<active>active</active>
+	</doctor>
+	<doctor doctorId="4">
+		<name>
+			<firstName>Beth</firstName>
+			<lastName>Garcia</lastName>
+		</name>
+		<data>
+			<dob>1964-07-19 12:00:00</dob>
+			<SSN>343-34-9875</SSN>
+		</data>
+		<specialty>ONCOLOGY</specialty>
+		<active>active</active>
+	</doctor>
+	<visit patientId="1" doctorId="1" visitDate="2016-05-11 12:00:00">	</visit>
+	<visit patientId="1" doctorId="1" visitDate="2016-05-12 12:00:00">	</visit>
+	<visit patientId="4" doctorId="2" visitDate="2016-05-14 12:00:00">	</visit>
+	<visit patientId="2" doctorId="3" visitDate="2016-05-09 12:00:00">	</visit>
+	<visit patientId="3" doctorId="4" visitDate="2016-05-09 12:00:00">	</visit>
+	<visit patientId="4" doctorId="1" visitDate="2016-05-13 12:00:00">	</visit>
+	<visit patientId="3" doctorId="2" visitDate="2016-05-13 12:00:00">	</visit>
+</schedulerList>
